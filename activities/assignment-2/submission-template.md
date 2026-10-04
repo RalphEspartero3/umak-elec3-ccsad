@@ -11,8 +11,8 @@ How to use this template:
 
 ## About me
 
-- GitHub username: <answer>
-- Section: <answer>
+- GitHub username: RalphEspartero3
+- Section: IV-CCSAD
 - IAM user name that I signed in with: <answer>
 - X: <answer>
 
