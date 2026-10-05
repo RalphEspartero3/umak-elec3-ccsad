@@ -119,11 +119,11 @@ Screenshot 3. Save it as `screenshot-3-network-acl.png` in your folder. The imag
 
 Inbound rule (type and source):
 
-<answer>
+All traffic, from sg-0c5b6d4081cf0a534. The source is the default security group itself.
 
 Which resources can send traffic to an instance that uses it?
 
-<answer>
+Only resources (such as EC2 instances or elastic network interfaces) that are explicitly assigned to that same security group (sg-0c5b6d4081cf0a534) can send traffic to the instance.
 
 ---
 
