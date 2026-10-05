@@ -48,7 +48,10 @@ Screenshot 1. Save it as `screenshot-1-subnets.png` in your folder. The image li
 
 Available IPv4 addresses in each subnet:
 
-<answer>
+ap-southeast-1a - 4090
+ap-southeast-1b - 4091
+ap-southeast-1c - 4091
+
 
 Why is the number lower than 4,096?
 
