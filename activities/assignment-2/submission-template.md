@@ -90,13 +90,14 @@ If it is detached, the default subnets will lose direct internet access and effe
 
 ### A7. NAT gateways
 
-Number of NAT gateways:
+Number of NAT gateways: 
 
-<answer>
+0
 
 Can a server in a new private subnet download updates? Why?
 
-<answer>
+
+No. Without a NAT gateway to route outbound traffic, servers in a private subnet have no way to access the internet to download updates or software packages.
 
 ### A8. The network ACL
 
