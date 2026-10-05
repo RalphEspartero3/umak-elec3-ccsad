@@ -76,7 +76,7 @@ Screenshot 2. Save it as `screenshot-2-routes.png` in your folder. The image lin
 
 Are the default subnets public or private? Which route proves it?
 
-<answer>
+The default subnets are public, which is proven by the route directing destination 0.0.0.0/0 to an Internet Gateway (igw-0943e7e6f88293168)
 
 ### A6. The internet gateway
 
