@@ -131,8 +131,8 @@ Only resources (such as EC2 instances or elastic network interfaces) that are ex
 
 ### B1. Plan two subnets
 
-- Public subnet CIDR: <answer>
-- Private subnet CIDR: <answer>
+- Public subnet CIDR: 10.108.0.0/24
+- Private subnet CIDR: 10.108.1.0/24
 
 ### B2. Route tables
 
@@ -140,43 +140,43 @@ Route table of the public subnet:
 
 | Destination | Target |
 | --- | --- |
-| <answer> | <answer> |
-| <answer> | <answer> |
+| 10.108.0.0/16 | local |
+| 0.0.0.0/0 | internet gateway |
 
 Route table of the private subnet:
 
 | Destination | Target |
 | --- | --- |
-| <answer> | <answer> |
+| 10.108.0.0/16 | local |
 
 ### B3. My VPC diagram
 
 Tool used (Excalidraw, draw.io, Lucidchart, or paper):
 
-<answer>
+draw.io
 
 Save your diagram as `vpc-diagram.png` in your folder. The image line below shows it.
 
-![B3: my VPC diagram](vpc-diagram.png)
+<img width="762" height="542" alt="vpc-diagram drawio" src="https://github.com/user-attachments/assets/ef43df4f-f51d-40ad-853f-37a517b306a1" />
 
 ### B4. Predict a change
 
 Can you still open the web page from your laptop? Why?
 
-<answer>
+No. Deleting the 0.0.0.0/0 route removes the path to the Internet Gateway, preventing inbound traffic from the internet (your laptop) from reaching the instance.
 
 Can the instance still reach another instance in the VPC? Why?
 
-<answer>
+Yes. The local route (10.108.0.0/16 -> local) remains active, allowing internal traffic within the VPC CIDR block.
 
 ### B5. Place a database
 
 Which subnet gets the database? Why?
 
-<answer>
+Private Subnet (10.108.1.0/24). Placing a database in a private subnet prevents direct inbound internet exposure, protecting sensitive data while remaining accessible to backend servers in the public subnet.
 
 ### B6. My question about VPCs
 
 What is your question, and what made you think of it?
 
-<answer>
+How does a NAT Gateway let response traffic back in while still blocking new connections from the internet? Seeing that private subnets block direct internet access made me wonder how outbound download traffic safely gets back in.
