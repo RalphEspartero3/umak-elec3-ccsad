@@ -24,7 +24,7 @@ How to use this template:
 
 Default VPC IPv4 CIDR:
 
-<answer>
+172.31.0.0/16
 
 Number of addresses in that CIDR:
 
