@@ -48,18 +48,18 @@ Screenshot 1. Save it as `screenshot-1-subnets.png` in your folder. The image li
 
 Available IPv4 addresses in each subnet:
 
-ap-southeast-1a - 4090
-ap-southeast-1b - 4091
+ap-southeast-1a - 4090,
+ap-southeast-1b - 4091,
 ap-southeast-1c - 4091
 
 
 Why is the number lower than 4,096?
 
-<answer>
+The count is below 4,096 because AWS automatically reserves 5 IP addresses per subnet for internal network management
 
 What uses the missing address in the subnet with the lowest number?
 
-<answer>
+The additional missing address in ap-southeast-1a is occupied by an active resource or network interface, such as an EC2 instance, NAT Gateway, or Load Balancer.
 
 ### A4. The route table
 
