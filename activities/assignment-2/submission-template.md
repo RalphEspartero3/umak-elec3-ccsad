@@ -13,8 +13,8 @@ How to use this template:
 
 - GitHub username: RalphEspartero3
 - Section: IV-CCSAD
-- IAM user name that I signed in with: <answer>
-- X: <answer>
+- IAM user name that I signed in with: ccsad
+- X: 108
 
 ---
 
