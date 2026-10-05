@@ -65,12 +65,12 @@ The additional missing address in ap-southeast-1a is occupied by an active resou
 
 | Destination | Target |
 | --- | --- |
-| <answer> | <answer> |
-| <answer> | <answer> |
+| 0.0.0.0/0 | igw-0943e7e6f88293168 |
+| 172.31.0.0/16 | local |
 
 Screenshot 2. Save it as `screenshot-2-routes.png` in your folder. The image line below shows it.
 
-![Screenshot 2: routes of the route table](screenshot-2-routes.png)
+<img width="1149" height="597" alt="ae9a1820-5e03-4163-beec-63c2213bb87e" src="https://github.com/user-attachments/assets/4ac01a29-93ba-490a-8f86-5a2851d6ab78" />
 
 ### A5. Public or private
 
