@@ -40,7 +40,8 @@ Number of addresses in that CIDR:
 
 Screenshot 1. Save it as `screenshot-1-subnets.png` in your folder. The image line below shows it.
 
-![Screenshot 1: subnet list](screenshot-1-subnets.png)
+<img width="1365" height="371" alt="image" src="https://github.com/user-attachments/assets/820b24db-f5c0-4517-899b-b3747d443217" />
+
 
 ### A3. Available addresses
 
