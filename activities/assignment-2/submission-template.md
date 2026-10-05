@@ -103,16 +103,17 @@ No. Without a NAT gateway to route outbound traffic, servers in a private subnet
 
 | Rule number | Source | Allow or Deny |
 | --- | --- | --- |
-| <answer> | <answer> | <answer> |
-| <answer> | <answer> | <answer> |
+| 100 | 0.0.0.0/0 | Allow |
+| * | 0.0.0.0/0 | Deny |
 
 How is a network ACL different from a security group?
 
-<answer>
+Unlike a stateful security group that operates at the instance level with allow-only rules, a network ACL operates at the subnet level, is stateless, and evaluates explicit allow and deny rules in numbered order.
 
 Screenshot 3. Save it as `screenshot-3-network-acl.png` in your folder. The image line below shows it.
 
-![Screenshot 3: inbound rules of the network ACL](screenshot-3-network-acl.png)
+<img width="1174" height="596" alt="image" src="https://github.com/user-attachments/assets/76a2b82f-93e9-4822-b7bf-def6657776d9" />
+
 
 ### A9. The default security group
 
