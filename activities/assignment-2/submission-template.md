@@ -28,7 +28,7 @@ Default VPC IPv4 CIDR:
 
 Number of addresses in that CIDR:
 
-<answer>
+65,536
 
 ### A2. The subnets
 
