@@ -34,9 +34,9 @@ Number of addresses in that CIDR:
 
 | Availability Zone | IPv4 CIDR |
 | --- | --- |
-| <answer> | <answer> |
-| <answer> | <answer> |
-| <answer> | <answer> |
+| ap-southeast-1a | 172.31.32.0/20 |
+| ap-southeast-1b | 172.31.16.0/20 |
+| ap-southeast-1c | 172.31.0.0/20 |
 
 Screenshot 1. Save it as `screenshot-1-subnets.png` in your folder. The image line below shows it.
 
