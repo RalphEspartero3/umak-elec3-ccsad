@@ -55,7 +55,7 @@ ap-southeast-1c - 4091
 
 Why is the number lower than 4,096?
 
-The count is below 4,096 because AWS automatically reserves 5 IP addresses per subnet for internal network management
+The count is below 4,096 because AWS automatically reserves 5 IP addresses per subnet for internal network management.
 
 What uses the missing address in the subnet with the lowest number?
 
