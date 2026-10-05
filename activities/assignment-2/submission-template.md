@@ -82,11 +82,11 @@ The default subnets are public, which is proven by the route directing destinati
 
 State of the internet gateway:
 
-<answer>
+Attached
 
 What happens to the default subnets if the gateway is detached?
 
-<answer>
+If it is detached, the default subnets will lose direct internet access and effectively become private subnets.
 
 ### A7. NAT gateways
 
